@@ -1,15 +1,29 @@
 package powershell.view
 
+import com.google.common.collect.Maps
+import com.jediterm.pty.PtyMain
+import com.jediterm.terminal.TtyConnector
+import com.jediterm.terminal.ui.JediTermWidget
+import com.jediterm.terminal.ui.TerminalSession
+import com.jediterm.terminal.ui.TerminalWidget
+import com.jediterm.terminal.ui.UIUtil
+import com.jediterm.terminal.ui.settings.DefaultSettingsProvider
+import com.pty4j.PtyProcess
 import groovy.swing.SwingBuilder
-import powershell.controller.ConsoleMessage
+import powershell.controller.ConsoleProcess
+import powershell.controller.CustomTtyConnector
 import powershell.controller.EventHandler
+import powershell.controller.TerminalSettings
 
-import javax.swing.WindowConstants
+import javax.swing.*
+import java.nio.charset.Charset
 
 class MainFrame {
 
-    private textArea
+
     private eh = new EventHandler(this)
+    private JediTermWidget terminal
+    private frame
 
     def show() {
 
@@ -19,7 +33,7 @@ class MainFrame {
         SwingBuilder.lookAndFeel 'motif'
 
         new SwingBuilder().edt {
-            frame(
+            frame = frame(
                     title: "Powershell by sazevedo",
                     size: [1024, 768],
                     show: true,
@@ -43,16 +57,22 @@ class MainFrame {
                         }
                     }
                 }
+
                 scrollPane(id: 'scrollPane', constraints: context.CENTER, border: null) {
-                    this.textArea = textArea(
-                            id: 'cmdArea',
-                            "${ConsoleMessage.welcome()}${ConsoleMessage.prompt()}",
-                            editable: true,
-                            keyPressed: eh.keyPressed
-                        )
+                    widget(terminal = new JediTermWidget(new TerminalSettings()))
                 }
 
             }
         }
+
+        def process = new ConsoleProcess(terminal.terminal)
+        new Thread(process).start()
+
+        openSession(terminal as JediTermWidget, new CustomTtyConnector(process))
+    }
+
+    void openSession(TerminalWidget terminal, TtyConnector ttyConnector) {
+        TerminalSession session = terminal.createTerminalSession(ttyConnector)
+        session.start()
     }
 }

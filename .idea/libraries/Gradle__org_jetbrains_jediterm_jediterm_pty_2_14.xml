@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.jediterm:jediterm-pty:2.14">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Could not find org.jetbrains.jediterm:jediterm-pty:2.14." />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.jediterm/jediterm-pty/2.14/7440b61afcbc1d02c31feba98dbfd828d09d7b3e/jediterm-pty-2.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.jediterm/jediterm-pty/2.14/357e5c2224fa01445435768b9b8766e35cab8a74/jediterm-pty-2.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -8,9 +8,22 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven {
+        url "http://jcenter.bintray.com/"
+    }
 }
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.11'
+
+    // https://mvnrepository.com/artifact/org.jetbrains.jediterm/jediterm-pty
+    compile group: 'org.jetbrains.jediterm', name: 'jediterm-pty', version: '2.14'
+
+    // https://mvnrepository.com/artifact/org.jetbrains.pty4j/pty4j
+    compile group: 'org.jetbrains.pty4j', name: 'pty4j', version: '0.8.6'
+
+    // https://mvnrepository.com/artifact/log4j/log4j
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
