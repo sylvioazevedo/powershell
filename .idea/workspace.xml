@@ -1,72 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58923d0e-c7f6-4214-8419-7959deb79765" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_25_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_4_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_java_dev_jna_jna_platform_4_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_16_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_jediterm_jediterm_pty_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_pty4j_pty4j_0_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_pty4j_purejavacomm_0_0_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/annotations.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/guava-14.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javac2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jediterm-pty-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jna-platform.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jna.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/linux/x86/libpty.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/linux/x86_64/libpty.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/macosx/x86/libpty.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/macosx/x86_64/libpty.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/pty4j-0.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/purejavacomm-0.0.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/win/x86/libwinpty.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/win/x86/winpty-agent.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/win/x86/winpty.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/win/x86_64/cyglaunch.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/win/x86_64/winpty-agent.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/win/x86_64/winpty.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/win/xp/winpty-agent.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/win/xp/winpty.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/powershell/controller/ConsoleProcess.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/powershell/controller/CustomTtyConnector.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/powershell/controller/TerminalSettings.groovy" afterDir="false" />
+    <list default="true" id="58923d0e-c7f6-4214-8419-7959deb79765" name="Default" comment="Replacing bash and cmd shell for a custom one. A good start, but It &#10;still has a lot of bugs and missing operations.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/powershell_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/powershell_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/powershell_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/powershell_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/controller/ConsoleMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/controller/ConsoleMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/controller/EventHandler$_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/controller/EventHandler$_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/controller/EventHandler$_closure1_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/controller/EventHandler$_closure1_closure2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/controller/EventHandler$_closure1_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/controller/EventHandler$_closure1_closure3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/controller/EventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/controller/EventHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5_closure7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5_closure7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5_closure7_closure9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5_closure7_closure9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5_closure8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5_closure8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5_closure8_closure10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure5_closure8_closure10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure6_closure11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure6_closure11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure6_closure11_closure12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure3_closure6_closure11_closure12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame$_show_closure1_closure2_closure4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/powershell/view/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/powershell/controller/ConsoleMessage.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/powershell/controller/ConsoleMessage.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/powershell/view/MainFrame.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/powershell/view/MainFrame.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -76,6 +16,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -92,24 +36,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="powershell" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="powershell" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="powershell" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="powershell" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -122,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/view/MainFrame.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="70" column="61" lean-forward="true" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
+            <state relative-caret-position="810">
+              <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
               <folding>
                 <element signature="e#25#62#0" expanded="true" />
               </folding>
@@ -134,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/CustomTtyConnector.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="120">
               <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
                 <element signature="e#31#70#0" expanded="true" />
@@ -143,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/ConsoleProcess.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="-57">
               <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
               <folding>
                 <element signature="e#31#68#0" expanded="true" />
@@ -155,11 +81,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/TerminalSettings.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="60">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding>
                 <element signature="e#31#73#0" expanded="true" />
               </folding>
@@ -214,12 +149,14 @@
         <option value="$PROJECT_DIR$/src/main/groovy/powershell/controller/CustomTtyConnector.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/powershell/view/MainFrame.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/powershell/controller/ConsoleProcess.groovy" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="-22" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -227,8 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,58 +173,21 @@
             </path>
             <path>
               <item name="powershell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="powershell" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="powershell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="powershell" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="powershell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="powershell" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="powershell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="powershell" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="powershell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="powershell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="powershell" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="powershell" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="powershell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="powershell" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="powershell" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549937995933" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549938033030" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -342,6 +240,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -379,7 +278,9 @@
       <workItem from="1515849534614" duration="2373000" />
       <workItem from="1515866468300" duration="6888000" />
       <workItem from="1549666001664" duration="205000" />
-      <workItem from="1549666225999" duration="8824000" />
+      <workItem from="1549666225999" duration="9062000" />
+      <workItem from="1553044816901" duration="225000" />
+      <workItem from="1554498523412" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="Project first load. A fare shell, to be improved...">
       <created>1515028862729</created>
@@ -395,17 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1515030014488</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Replacing bash and cmd shell for a custom one. A good start, but It &#10;still has a lot of bugs and missing operations.">
+      <created>1549938107295</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549938107295</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23004000" />
+    <option name="totallyTimeSpent" value="23671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21959943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21959943" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -415,7 +322,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.3283767" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2936803" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2936803" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -445,7 +352,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project first load. A fare shell, to be improved..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Project first load. A fare shell, to be improved..." />
+    <MESSAGE value="Replacing bash and cmd shell for a custom one. A good start, but It &#10;still has a lot of bugs and missing operations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replacing bash and cmd shell for a custom one. A good start, but It &#10;still has a lot of bugs and missing operations." />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/jediterm-pty-2.6.jar!/com/jediterm/terminal/ui/TerminalPanel.class">
@@ -477,20 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/EventHandler.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.jediterm/jediterm-pty/2.14/357e5c2224fa01445435768b9b8766e35cab8a74/jediterm-pty-2.14-sources.jar!/com/jediterm/terminal/ui/settings/DefaultSettingsProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -505,47 +399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/TerminalSettings.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#31#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/awt/event/KeyEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="223" column="28" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/Launcher.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/view/MainFrame.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="70" column="61" lean-forward="true" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
-          <folding>
-            <element signature="e#25#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/CustomTtyConnector.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#31#70#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,13 +413,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/view/MainFrame.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
+          <folding>
+            <element signature="e#25#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/CustomTtyConnector.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#31#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/TerminalSettings.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#31#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/Launcher.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/EventHandler.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/groovy/powershell/controller/ConsoleProcess.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="-57">
           <caret line="161" column="30" selection-start-line="161" selection-start-column="30" selection-end-line="161" selection-end-column="30" />
           <folding>
             <element signature="e#31#68#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
         </state>
       </provider>
     </entry>
