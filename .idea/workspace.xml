@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58923d0e-c7f6-4214-8419-7959deb79765" name="Default" comment="Replacing bash and cmd shell for a custom one. A good start, but It &#10;still has a lot of bugs and missing operations.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/powershell_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/powershell_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/powershell_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/powershell_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="58923d0e-c7f6-4214-8419-7959deb79765" name="Default" comment="Replacing bash and cmd shell for a custom one. A good start, but It &#10;still has a lot of bugs and missing operations." />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -188,6 +182,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549938033030" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -280,7 +277,7 @@
       <workItem from="1549666001664" duration="205000" />
       <workItem from="1549666225999" duration="9062000" />
       <workItem from="1553044816901" duration="225000" />
-      <workItem from="1554498523412" duration="204000" />
+      <workItem from="1554498523412" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="Project first load. A fare shell, to be improved...">
       <created>1515028862729</created>
@@ -307,7 +304,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23671000" />
+    <option name="totallyTimeSpent" value="23946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
